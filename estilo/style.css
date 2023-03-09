@@ -132,3 +132,7 @@ footer p {
     font-size: 18px;
     text-shadow: 2px 2px 1px black;
 }
+
+iframe {
+    border: 5px solid black
+}
