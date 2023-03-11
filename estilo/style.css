@@ -17,8 +17,7 @@ html {
     background-color: rgb(17, 57, 165);
 }
 
-header {
-    font-family: "Induction"; 
+header { 
     display: flex; 
     justify-content: space-between; 
     height: 100px; 
