@@ -14,11 +14,11 @@
 
 html {
     font-size: 20px;
-    font-family: "lemon";
     background-color: rgb(17, 57, 165);
 }
 
-header { 
+header {
+    font-family: "Induction"; 
     display: flex; 
     justify-content: space-between; 
     height: 100px; 
@@ -63,6 +63,7 @@ nav li {
 }
 
 h1 {
+    font-family: "neuropol";
     font-size: 40px ; 
     text-align: center;
     margin: 0; 
@@ -72,13 +73,14 @@ h1 {
 }
 
 h2 {
+    font-family: "neuropol";
     font-size: 25px; 
     text-shadow: 2px 2px 1px black; 
     color: rgb(17, 57, 165);
 }
 
 p, li {
-    font-family: "biza";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 500; 
     line-height: 2; 
@@ -128,8 +130,8 @@ button {
 
 footer p {
     color: rgb(192, 153, 26);
-    font-family: "lemon";
-    font-size: 18px;
+    font-family: "Induction";
+    font-size: 20px;
     text-shadow: 2px 2px 1px black;
 }
 
