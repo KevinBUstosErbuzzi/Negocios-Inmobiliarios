@@ -10,7 +10,10 @@
 html {
     font-family: "lemon";
     font-size: 20px;
-    background-color: rgb(17, 57, 165);
+    background-color: #52ACFF;
+    background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+
+
 }
 
 header { 
@@ -95,8 +98,9 @@ body {
 img {
     display: block; 
     margin: 0 auto; 
-    width: 50%; 
+    width: 50%;
     border:  5px solid black;
+    border-radius: 20px;
 }
 
 a {
@@ -113,6 +117,7 @@ footer {
     border: 5px solid black;
     border-bottom: 0px;
     height: 70px;
+    margin: 0 auto;
 }
 
 footer p {
@@ -124,5 +129,8 @@ footer p {
 }
 
 iframe {
-    border: 5px solid black
+    display: block;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 20px 
 }
