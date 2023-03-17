@@ -26,6 +26,8 @@ header {
     border-left: 5px solid black;
     border-right: 5px solid black;
     border-bottom: 5px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .logo {
@@ -70,6 +72,7 @@ h1 {
     padding: 20px 0; 
     color: rgb(17, 57, 165); 
     text-shadow: 3px 3px 1px black;
+    padding-top: 60px;
 }
 
 h2 {
@@ -91,7 +94,7 @@ body {
     width: 600px; 
     margin: 0 auto; 
     background-color: rgb(192, 153, 26); 
-    padding: 0 20px 0px 20px; 
+    padding: 0 30px 0px 30px; 
     border: 5px solid black;
 }
 
@@ -101,6 +104,22 @@ img {
     width: 50%;
     border:  5px solid black;
     border-radius: 20px;
+}
+
+.Foto {
+    padding-top: 30px;
+}
+
+.servicios {
+    padding-top: 100px;
+}
+
+.nosotros, .ubicacion {
+    padding-top: 20px;
+}
+
+.contacto {
+    padding-top: 60px;
 }
 
 a {
@@ -116,6 +135,8 @@ footer {
     background-color: rgb(17, 57, 165);
     border: 5px solid black;
     border-bottom: 0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     height: 70px;
     margin: 0 auto;
 }
