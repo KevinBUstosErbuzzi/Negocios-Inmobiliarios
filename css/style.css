@@ -1,10 +1,12 @@
 @font-face {
 
     font-family: "biza";
-    src: url(Bizantheum.ttf);
-
+    src: url('Bizantheum.ttf') format('opentype');
+}
+@font-face {
+    
     font-family: "lemon";
-    src: url(LEMONMILK-Regular.ttf); 
+    src: url('LEMONMILK-Regular.ttf') format('opentype'); 
 }
 
 html {
