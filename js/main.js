@@ -11,18 +11,21 @@ miImage.onclick = function () {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-const apiUrl = 'https://jsonplaceholder.typicode.com/photos?_limit=10';
+    const apiUrl = 'https://api.unsplash.com/search/photos';
+    const query = 'houses';
+    const clientId = 'd1heTDlZilzr0-1YTxRMJgbSKZ1J10XrQwA_tdzzoj0';
 
-fetch(apiUrl)
-.then(response => response.json())
-.then(data => {
-const galeria = document.getElementById('galeria');
-data.forEach(photo => {
-const img = document.createElement('img');
-img.src = photo.url;
-img.alt = photo.title;
-galeria.appendChild(img);
+    fetch(`${apiUrl}?query=${query}&client_id=${clientId}&per_page=10`)
+    .then(response => response.json())
+    .then(data => {
+        const galeria = document.getElementById('galeria');
+        data.results.forEach(photo => {
+        const img = document.createElement('img');
+        img.src = photo.urls.small;
+        img.alt = photo.alt_description || 'Foto de casa';
+        galeria.appendChild(img);
+        });
+    })
+    .catch(error => console.error('Error al cargar las fotos:', error));
 });
-})
-.catch(error => console.error('Error al cargar las fotos:', error));
-});
+

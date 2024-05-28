@@ -38,6 +38,14 @@ html {
     font-size: 1.2rem;
 }
 
+#login-form {
+    text-align: center;
+}
+
+#register-form {
+    text-align: center;
+}
+
 .register-container {
     width: 30%; 
     margin: 0 auto; 
@@ -81,7 +89,21 @@ h2 {
 }
 
 #username {
-    border: 1px;
+    background-color: rgb(17, 57, 165);
+    font-size: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: 2px solid rgb(17, 57, 165);
+    text-align: center;
+}
+
+#password {
+    background-color: rgb(17, 57, 165);
+    font-size: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: 2px solid rgb(17, 57, 165);
+    text-align: center;
 }
 
 .boton {
@@ -94,6 +116,7 @@ h2 {
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 500;
+    margin-top: 30px;
 }
 
 .logo img {
